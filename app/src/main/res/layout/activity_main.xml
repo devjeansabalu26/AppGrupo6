@@ -80,7 +80,7 @@
             android:layout_width="0dp"
             android:layout_height="56dp"
             android:layout_marginTop="12dp"
-            android:text="Pregunta 4"
+            android:text="Pregunta 4 Jose"
             app:cornerRadius="12dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
