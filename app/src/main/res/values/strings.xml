@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppGrupo6</string>
+    <string name="p2_numero">PREGUNTA 2</string>
+    <string name="p2_titulo">Devolución de Contenedores (Demurrage)</string>
+    <string name="p2_descripcion">Periodo libre: 7 días. Exceso: S/ 200.00 base + S/ 75.00 por día adicional.</string>
+    <string name="p2_hint_dias">Días transcurridos</string>
+    <string name="p2_btn_calcular">Calcular Demurrage</string>
 </resources>
