@@ -38,6 +38,10 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
+            android:name=".Pregunta5Activity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
             android:name=".Pregunta6Activity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
