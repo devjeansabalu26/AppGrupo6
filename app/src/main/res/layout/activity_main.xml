@@ -44,7 +44,7 @@
             android:layout_width="0dp"
             android:layout_height="56dp"
             android:layout_marginTop="28dp"
-            android:text="Pregunta 1"
+            android:text="Pregunta 1 Jean"
             app:cornerRadius="12dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

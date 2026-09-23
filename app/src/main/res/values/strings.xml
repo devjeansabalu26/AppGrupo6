@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">AppGrupo6</string>
-
-    <!-- Pregunta 1: Sobredimensión de carga -->
     <string name="pregunta1_titulo">Sobredimensión de carga</string>
     <string name="pregunta1_longitud_maxima">Longitud máxima permitida: 12 m</string>
     <string name="pregunta1_hint_longitud">Ingrese longitud en metros</string>
