@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.btnPregunta1 -> {
-                // startActivity(Intent(this, Pregunta1Activity::class.java))
+                startActivity(Intent(this, Pregunta1Activity::class.java))
             }
             R.id.btnPregunta2 -> {
                 startActivity(Intent(this, Pregunta2Activity::class.java))
