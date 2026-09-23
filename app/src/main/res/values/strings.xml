@@ -12,4 +12,9 @@
     <string name="pregunta1_error_no_positivo">La longitud debe ser mayor que 0.</string>
     <string name="pregunta1_dentro_limite">Carga dentro de las dimensiones permitidas.</string>
     <string name="pregunta1_resultado">Longitud ingresada: %1$.2f m\nExceso de metros: %2$.2f m\nSobrecargo total: S/ %3$.2f</string>
+    <string name="p2_numero">PREGUNTA 2</string>
+    <string name="p2_titulo">Devolución de Contenedores (Demurrage)</string>
+    <string name="p2_descripcion">Periodo libre: 7 días. Exceso: S/ 200.00 base + S/ 75.00 por día adicional.</string>
+    <string name="p2_hint_dias">Días transcurridos</string>
+    <string name="p2_btn_calcular">Calcular Demurrage</string>
 </resources>
