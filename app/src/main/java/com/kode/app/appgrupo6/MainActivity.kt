@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(Intent(this, Pregunta3Activity::class.java))
             }
             R.id.btnPregunta4 -> {
-                // startActivity(Intent(this, Pregunta4Activity::class.java))
+                startActivity(Intent(this, Pregunta4Activity::class.java))
             }
             R.id.btnPregunta5 -> {
                 // startActivity(Intent(this, Pregunta5Activity::class.java))
