@@ -17,24 +17,20 @@ class Pregunta6Activity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        // 1. Inicializar el binding
         binding = ActivityPregunta6Binding.inflate(layoutInflater)
-        // 2. Mostrar la vista usando binding.root en lugar de R.layout...
+
         setContentView(binding.root)
 
-        setContentView(R.layout.activity_pregunta6)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        // 3. Escuchar el clic del botón btnresult
         binding.btnResultado.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
-        // 4. Redirigir el clic a la función de cálculo
         when (v?.id) {
             binding.btnResultado.id -> calcularCobroExtra()
         }
