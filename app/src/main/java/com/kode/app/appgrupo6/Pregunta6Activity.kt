@@ -16,10 +16,11 @@ class Pregunta6Activity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
         binding = ActivityPregunta6Binding.inflate(layoutInflater)
+
         setContentView(binding.root)
 
-        setContentView(R.layout.activity_pregunta6)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
