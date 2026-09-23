@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btnPregunta7 -> {
 
-                // startActivity(Intent(this, Pregunta7Activity::class.java))
+                startActivity(Intent(this, Pregunta7Activity::class.java))
             }
         }
     }
