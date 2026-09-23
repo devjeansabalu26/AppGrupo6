@@ -15,4 +15,14 @@
     <string name="p2_descripcion">Periodo libre: 7 días. Exceso: S/ 200.00 base + S/ 75.00 por día adicional.</string>
     <string name="p2_hint_dias">Días transcurridos</string>
     <string name="p2_btn_calcular">Calcular Demurrage</string>
+
+    <string name="p7_numero">PREGUNTA 7</string>
+    <string name="p7_titulo">Ocupación de Andén de Descarga</string>
+    <string name="p7_descripcion">Tiempo máximo: 45 min. Exceso: S/ 70.00 base + S/ 4.00 por minuto adicional.</string>
+    <string name="p7_hint_minutos">Minutos en andén</string>
+    <string name="p7_btn_calcular">Calcular Cargo</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 </resources>

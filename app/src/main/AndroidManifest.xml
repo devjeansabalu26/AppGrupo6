@@ -37,6 +37,11 @@
             android:name=".Pregunta4Activity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Pregunta7Activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppGrupo6"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
